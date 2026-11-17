@@ -1,0 +1,10 @@
+# Configuração com credenciais (fica fora deste repositório)
+config/
+*.env
+.env*
+# Diversos
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
