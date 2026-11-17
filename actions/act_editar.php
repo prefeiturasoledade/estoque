@@ -1,5 +1,8 @@
 <?php
 
+// Só usuários logados (sem isto qualquer um alterava o estoque pelo link)
+require_once "../../assets/secure/acesso.php";
+
 require_once "../../../config/pdo_database.php";
 require_once "../../assets/functions/tools.php";
 
